@@ -7,53 +7,142 @@
     <title>Tipos de Arquivos</title>
 </head>
 <body>
+    <article>
     <h1>Tipos de Arquivos</h1>
-        <h2>Imagens</h2>
+        <h2>IMAGENS<BR>
+            Quais são os Arquivos de imagens mais usados e melhores para trabalha:<br>
+            <ol>
+                <li>
+                    Webp = mais indicado, compressão melhor que jpg, menor tamanho , muito usado  <br>
+                </li>
+                <li>
+                    PNG = muito melhor que o jpg, melhor para areas constantes, e tem fundo transparente<br>
+                </li>
+                <li>
+                   JPG = na compressão , perde qualidade.<br>
+                </li>
+                <li>
+                   GIF = usada muito em animações.<br>
+                </li>
+                <li>
+                   SVG = muito usado para vetor, para logos, não tem ponto, tem vetores, otimo para ser redimensionado.<br>
+                </li>
+            </ol>
+           </h2>
             <h3 style="color: red;">
                 Pode ser colocado imagem, através : de locais , de url, tag de data<br>
             </h3>
+    </article> 
+    <br>
+    <br>
+    <article>
+        <h3>
+            <p style="color: blue;">
+                Tag < figure > < /figure > usar quando você quer Mostrar a imagem. <br>
+                Tag < figcaption >< /figcaption> usada para colocar uma legenda na foto.<br> 
+            </p>
+                Usada quando você quer dá um destaque para a imagem, deixa mais bonita. <br>
+                O código seria assim :
+                <br>
+                < figure > <br>
+                =====< img src="nego1.jpg" width="150" height="150" alt=" Uma foto do Giovani Teodoro Martins"> <br>
+                =====< figcaption > Giovani Teodoro Martins < /figcaption ><br>
+                < /figure ><br>
+                <br>
+                <figure>
+                    <img src="nego1.jpg" width="150" height="150" alt=" Uma foto do Giovani Teodoro Martins">
+                    <figcaption>Giovani Teodoro Martins</figcaption>
+                </figure>
+                Observação: Foi modificado o tamanho da imagem.<br>
+        </h3>
+    </article>  
+    <br>
+    <br>
+    <article>
+        <h3>
+            <p style="color: blue;">
+                ALT = alt = Texto alternativo da imagem
+            </p>
+                Obrigatório ter <br>
+                Para ajudar as pessoas que tem alguma deficiencia com a visão <br>
+                Seria um assistente de voz, para os sites de buscas, ou aplicativos ler a imagem.<br>
+                O código seria esse, em vermelho :<br>
+                < img src="nego1.jpg" width="150" height="150"<span style="color: red;" aqua;"> alt=" Uma foto do Giovani Teodoro Martins"></span> <br>
+                <img src="nego1.jpg" width="150" height="150" alt=" Uma foto do Giovani Teodoro Martins">
+                Observação: Foi modificado o tamanho da imagem.<br>
+        </h3>
+    </article>  
+    <br>
+    <br>     
     <article>
         <h3>
             <p style="color: blue;">
                 LOCAL , que está no servidor, neste caso no próprio computador 
             </p>
                 O código seria esse:<br>
-                < img src="nego1.jpg" width="150" height="150" alt="Giovani Teodoro Martins" ><br>
+                < img src="nego1.jpg" width="150" height="150" alt="Uma foto do Giovani Teodoro Martins" ><br>
                 Observação: Foi modificado o tamanho da imagem.<br>
-                <img src="nego1.jpg" width="150" height="150" alt="Giovani Teodoro Martins">
+                <img src="nego1.jpg" width="150" height="150" alt=" Uma foto do Giovani Teodoro Martins">
         </h3>
     </article>
     <br>
     <br>
     <article>
         <h3>
-            <p style="color: blue;">
+            <p style="color: rgb(192, 10, 137);">
                 URL, endereço da imagem, de algum site Você quer usar
             </p>
                 O código seria esse:<br>
                 < img src="https://via.placeholder.com/200" ><br>
-                <img src="https://via.placeholder.com/200" ">
+                <img src="https://via.placeholder.com/200" >
         </h3>
     </article>
+    <br>
+    <br>
     <article>
         <h3>
-            <p style="color: blue;">
+            <p style="color: rgb(5, 97, 109);">
                 Data base , você usa uma tag relativa a imagem
             </p>
-                O código seria esse:<br>
-                < img src="./nego1.jpg" width="150" height="150" ><br>
-                <img src="./nego1.jpg" width="150" height="150" ">
+                O código seria esse:  ./ <br>
+                < img src="./nego1.jpg" width="150" height="150" alt=" Uma foto do Giovani Teodoro Martins"><br>
+                <img src="./nego1.jpg" width="150" height="150" alt=" Uma foto do Giovani Teodoro Martins">
         </h3>
     </article>
+    <br>
+    <br>
     <article>
         <h3>
-            <p style="color: blue;">
-                Data base , você usa uma tag relativa a imagem
+            <p style="color: rgb(0, 255, 13);">
+                WIDTH (altura) e EIGTH (largura)
             </p>
-                O código seria esse:<br>
-                < img src="./nego1.jpg" width="150" height="150" ><br>
-                <img src="./nego1.jpg" width="150" height="150" ">
+                Usado para redimensionar a imagem, deve ser feita no código principal, para ajudar no carregamento da página!<br>
+                O código seria esse, em vermelho :<br>
+                < img src="nego1.jpg" <span style="color: red;" aqua;">width="150" height="150" ></span> <br>
+                Pode usar somente um e o outro vai ser redimensionado automaticamente do mesmo tamanho:<br>
+                Mas o ideal é sempre colocar os dois<br>
+                <span style="color: red;" aqua;">width="150" ></span> <br>
+                <img src="./nego1.jpg" width="150" height="150" alt=" Uma foto do Giovani Teodoro Martins">
         </h3>
     </article>
+    <br>
+    <br>
+    <header>
+        <h2 style="color: rgb(160, 121, 121);"> Tag < picture > < /picture >     </h2>
+            <h3>
+                É uma tag , somente para imagens e tem algumas configurações para serem feitas nas imagens.<br>
+                O código seria assim :<br>
+                < picture ><br>
+                ======< source srcset="nego1.jpg" type="imagem/jpg" > <br>
+                Se não carregar o source , vai carregar o "img" <br>
+                ======< img src="nego1.jpg" width="150" height="150" alt="Uma foto do Giovani Teodoro Martins" ><br>
+                < /picture ><br>
+            </h3>
+            <picture>
+                <source srcset="nego1.jpg" type="imagem/jpg">
+                <img src="nego1.jpg" width="150" height="150" alt="Uma foto do Giovani Teodoro Martins">
+            </picture>
+    </header>    
+
 </body>
 </html>
