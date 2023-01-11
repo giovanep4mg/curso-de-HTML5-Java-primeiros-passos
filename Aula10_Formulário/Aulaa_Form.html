@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <section>
+        <header><h1>Formulário</h1></header>
+        <h2>
+            O formulário, pode ser enviado de duas formas para o servidor.<br>
+            GET >> que puxa as informações, receber informações do servidor.<br>
+            POST >> pra enviar informação, para o servidor.<br>
+            Cria um campo de Texto.<br>
+            Metodo Padrão é o "get" <br>
+            <h3 style="color: red;">Quando for enviar informações sensiveis, como senhas, não usar o formulário get!</h3>
+        </h2>
+        <form method="post" action="Aulaa_Form.html">
+            <input type="text" name="nome">
+        </form>
+    </section>
+    <section>
+        <h2>
+            Aqui é o código padrão do Form:<br>
+            < form ><br>
+            ========< input type="text" name="nome" ><br>
+            < /form ><br>
+        </h2>
+    </section>
+    <br>
+    <br>
+    <section>
+        <header><h2>METODOS "method" </h2></header>
+        <h2>
+            Especificar qual é o metodo que você quer usar.<br>
+            GET >> que puxa as informações, receber informações do servidor.<br>
+            POST >> pra enviar informação, para o servidor.<br>
+            Cria um campo de Texto.<br>
+            <h3 style="color: red;">Quando for enviar informações sensiveis, como senhas, não usar o formulário get!</h3>
+        </h2>
+        <h2>
+            Esse seria o código:<br>
+        < form <span style="color: blue;" > method="post" </span> <br>
+        =====< input type="text" name="nome" ><br>
+        < /form ><br>
+        </h2>
+    </section>
+    <br>
+    <br>
+    <section>
+        <header><h2>Atributo ACTION </h2></header>
+        <h2>
+            Vai indicar o caminho para qual "url" quero enviar as informações.<br>
+            Cria um campo de Texto.<br>
+            <h3 style="color: red;">Quando for enviar informações sensiveis, como senhas, não usar o formulário get!</h3>
+        </h2>
+        <h2>
+            Esse seria o código:<br>
+        < form method="post" <span style="color: blue;" > action="Aulaa_Form.html" </span> <br>
+        =====< input type="text" name="nome" ><br>
+        < /form ><br>
+        </h2>
+    </section>
+</body>
+</html>
