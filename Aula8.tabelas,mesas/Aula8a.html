@@ -7,158 +7,172 @@
     <title>Tabelas,Mesas e outros </title>
 </head>
 <body>
-    <h1> Tabelas </h1>
-        <h2 style="color:red;">
-            <p>
+    <section>
+        <header><h1 style="color:red;"> Tabelas </h1></header>
+        <h2>
             Crie uma "tabela" <br>
-            adicione um "caption"  dentro do caption, coloque o titulo  e fecha ele <br>
-            </p>
-            < table > <br>
-            -----< caption > < h4 > "titulo" < /h4 > < /caption ><br>
+            Adicione um "caption"  dentro do caption, coloque o titulo  e fecha ele <br>
+            O código seria esse:<br>
+            <span style="color:rgb(92, 85, 155);">
+                < table > <br>
+            ======< caption > < h4 > "titulo" < /h4 > < /caption ><br>
+            </span>
             <p>
-            Crie um "thead" < thead > que é o cabeçario da tabela , onde estarão "OS DIAS DA SEMANA" < /thead ><br>
+            Crie um "thead" que é o cabeçario da tabela , onde estarão "OS DIAS DA SEMANA" .<br>
             Crie "tr" que é uma linha e dentro dessa linha, criar "th" é uma celula < th > Dias da Semana <br>
             </p>
-            < thead ><br>
-            ======< tr ><br>
-            ==========< th ><br>
+            < table > <br>
+            < caption > < h4 > Horários de estudos < /h4 >< /caption ><br>
+            =====< thead ><br>
+            =========< tr ><br>
+            ==============< th ><br>
             --------------------Dias da semana <br> 
-            ==========< /th ><br>
+            ==============< /th ><br>
             ==========< th ><br>
             --------------------Segunda <br>
             ==========< /th ><br>
-            ======< /tr ><br>
+            =======< /tr ><br>
             .........<br>
-            < /thead ><br>
+            =====< /thead ><br>
+            < /table ><br>
         </h2>
             <p>
-              <h1>Como vai ficar:</h1>
+              <h1>Como vai ficar, na página:</h1>
                 <h3>
-                    Dias da semana|Segunda|terça|quarta|quinta|sexta|sábado|<br>
+                    <table>
+                        <caption><h4> Horários de estudos </h4> </caption>
+                            <thead>
+                                <tr>
+                                    <th>
+                                        Dias da semana 
+                                    </th>
+                                    <th>
+                                      Segunda 
+                                    </th>
+                                    <th>
+                                      Terça 
+                                    </th>
+                                    <th>
+                                      Quarta 
+                                    </th>
+                                    <th>
+                                      Quinta 
+                                    </th>
+                                    <th>
+                                       Sexta 
+                                    </th>
+                                </tr>
+                            </thead>
+                    </table>
                 </h3>
             </p>
-            <p>
-                <h1 style="color: burlywood;" >
-                    Para criar o corpo da Tabela <br>
-                </h1>
-                <h2 style="color: blue;" >
-                    Crie um "tbody" < tbody > que é a parte de dentro da tabela, onde estaram o que você vai estudar < /tbody ><br>
-                    Crie "tr" que é uma linha e dentro dessa linha, criar "td" que é uma celula < td > "Manhã" < /td > <br>
-            < tbody ><br>
-            ======< tr ><br>
-            ===========< td > Manhã < /td ><br>
-            ===========< td > HTML < /td ><br>
-            ................<br>
-            ======< /tr ><br>
-            ======< tr > --segunda coluna de dentro da tabela <br>
-            ===========< td > Tarde < /td ><br>
-            ===========< td > HTML < /td ><br>
-            ===========< td > CSS < /td ><br>
-            .................<br>
-            ======< /tr ><br>
-            < /tbody ><br>
-            </p>
-        </h2>
-        <p>
-            <h1 style="color: rgba(26, 146, 15, 0.445);" >
-                Rodapé ,  barra de baixo da tabela  <br>
-            </h1>
-            <h2 style="color: rgb(124, 6, 31);" >
-                Crie um "tfoot" < tfoot > que é a parte de baixo da tabela, podem colocar alguns detalhes < /tfoot ><br>
-                Crie "tr" que é uma linha e dentro dessa linha, criar "th" que é uma celula < th > "Manhã" < /th > <br>
-        < tfoot ><br>
-        ======< tr ><br>
-        =========< th > <br>
-        ------------------vazio <br> 
-        =========< /th ><br>
-        --------------------FOCO HTML<br>
-        =========< th > <br>
-        --------------------FOCO CSS<br>
-        =========< th > <br>
-        --------------------HTML JS<br> 
-        =========< /th ><br>
-        --------------------FOCO JS<br>
-        =========< th > <br>
-        --------------------FOCO CSS<br>
-        ======< /tr ><br>
-        < /tfoot > <br>
-        </p>
-    </h2>
+    </section>
+    <br>
+    <section>
+        <header><h1 style="color: rgb(11, 172, 11);">Tbody , O CORPO DA TABELA</h1></header>
+            <h2>
+                Crie um "tbody" que é a parte de dentro da tabela, onde estaram o que você vai estudar <br>
+                Crie "tr" que é uma linha e dentro dessa linha, criar "td" que é uma celula "Manhã" <br>
+                O código seria esse:<br>
+                < tbody ><br>
+                ======< tr ><br>
+                ===========< td > Manhã < /td ><br>
+                ===========< td > HTML < /td ><br>
+                ===========< td > CSS < /td ><br>
+                ===========< td > CSS < /td ><br>
+                ===========< td > HTML< /td ><br>
+                ===========< td > JAVASCRIPT < /td ><br>
+                ======< /tr ><br>
+                < /tbody ><br>
+            </h2>
+            <br>
+            <h2>
+                Ficaria assim , na página:<br>
+                <tbody>
+                    <tr>
+                        <td> Manhã</td>
+                        <td> HTML</td>
+                        <td> CSS</td>
+                        <td> CSS </td>
+                        <td> HTML</td>
+                        <td> JAVASCRIPT</td>
+                    </tr>
+                </tbody>
+            </h2>
+    </section>
+    <br>
+    <br>
+    <section>
+        <header><h1 style="color: rgba(201, 19, 89, 0.445);" > Rodapé ,  barra de baixo da tabela</h1></header>
+            <h2>
+                Crie um "tfoot" que é o rodapé da tabela, podem colocar alguns detalhes.<br>
+                Crie "tr" que é uma linha e dentro dessa linha, criar "th" que é uma celula.<br>
+                O código seria esse:<br>
+                < tfoot ><br>
+                ======< tr ><br>
+                ===========< th ><br>
+                ----------------Dias da semana<br> 
+                ===========< /th ><br>
+                ===========< th ><br>
+                -----------------Segunda<br> 
+                ===========< /th ><br>
+                ===========< th ><br> 
+                -----------------Terça<br> 
+                ===========< /th ><br>
+                ===========< th ><br>
+                -----------------Quarta<br> 
+                ===========< /th ><br>
+                ===========< th ><br>
+                -----------------Quinta<br> 
+                ===========< /th ><br>
+                ===========< th ><br>
+                -----------------Sexta<br> 
+                ===========< /th ><br>
+                =======< /tr ><br>
+                < /tfoot ><br>
+            </h2>
+    </section>
     <aside>
-        <H1>Como a tabela ficará </H1>
-            <table>
-                <caption><h4> Horários de estudos </h4> </caption>
-                    <thead>
-                        <tr>
-                            <th>
-                                Dias da semana 
-                            </th>
-                            <th>
-                                Segunda 
-                            </th>
-                            <th>
-                                Terça 
-                            </th>
-                            <th>
-                                Quarta 
-                            </th>
-                            <th>
-                                Quinta 
-                            </th>
-                            <th>
-                                Sexta 
-                            </th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                          <td> Manhã</td>
-                          <td> HTML</td>
-                          <td> CSS</td>
-                          <td> CSS </td>
-                          <td> HTML</td>
-                          <td> JAVASCRIPT</td>
-                      </tr>
-                      <tr>
-                          <td> Tarde</td>
-                          <td> HTML</td>
-                          <td> CSS</td>
-                          <td> CSS </td>
-                          <td> HTML</td>
-                          <td> JAVASCRIPT</td>
-                      </tr>
-                  </tbody>
-                  <tfoot>
-                      <tr>
-                          <th>
-                              
-                          </th>
-                          <th>
-                            HTML
-                          </th>
-                          <th>
-                            CSS
-                          </th>
-                          <th>
-                             CSS
-                          </th>
-                          <th>
-                             HTML
-                          </th>
-                          <th>
-                             JS
-                          </th>
-                      </tr>
-                  </tfoot>
-          </table>
+        <H2>
+            Como a tabela ficará, na página:<br>
+            <tfoot>
+                <tr>
+                    <th>
+                        Dias da semana 
+                    </th>
+                    <th>
+                        Segunda 
+                    </th>
+                    <th>
+                        Terça 
+                    </th>
+                    <th>
+                       Quarta 
+                    </th>
+                    <th>
+                       Quinta 
+                    </th>
+                    <th>
+                       Sexta 
+                    </th>
+                </tr>
+            </tfoot>
+        </H2>
     </aside>
     <br>
     <br>
     <section>
-        <a href="../Aula9_tiposdeArquivos/Aula9_tipodeArquivos.html">PRÓXIMA</a><br>
+        <button type="submit"><a href="../Aula9_tiposdeArquivos/Aula9_tipodeArquivos.html">PRÓXIMA</a> </button> <br>
         <br>
-        <a href="../Aula7_Listas/Aula7_listaa.html">VOLTAR</a>
+        <button type="submit"><a href="../Aula7_Listas/Aula7_listaa.html">VOLTAR</a> </button>
 
     </section>
+    <br>
+    <br>
+    <section>
+        &copy;Giovani Teodoro Martins
+    </section>
+    <br>
+    <br>
 </body>
 </html>

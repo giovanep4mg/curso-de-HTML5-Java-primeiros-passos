@@ -7,20 +7,18 @@
     <title>daula 5 C </title>
 </head>
 <body>
-    <header><H1>Formas de usar cabeçario e marcação</H1></header>
+    <header><H1 style="color: blue;">Formas de usar cabeçario e marcação</H1></header>
     <section>
         <h2>
             Para ficar semântico,  facilitar leitura de buscadores <br>
-            deixar as section, ficarem explicitas para leitores 
+            deixar as section, ficarem explicitas para leitores<br> 
+            Você deve colocar "section" , e dentro das "section" , "article" para mostrar quais são importantes e quais vem primeiro 
         </h2>
     </section>
     <section>
         <h3>
-            Você deve colocar "section" , e dentro das "section" , "article" para mostrar quais são importantes e quais vem primeiro 
-        </h3>
-    </section>
-    <section>
-        <h3>
+            O código seria assim: <br>
+            <br>
             < section >    >>> abre a seção <br>
             =====< h3 >  Dados pessoais   >>> titulo da seção <br>
             ==========< article >  >> artigo para separar e pode ler na ordem <br>
@@ -42,10 +40,40 @@
             < /section >     >> fecha seção <br>
         </h3>
     </section>
+    <br>
+    <article>
+        <section> 
+            <header><h2>Ficaria assim, na página:</h2></header>  
+            <h3>  Dados pessoais
+                <article >   
+                    <h4 >   
+                        Documentos: 
+                    </h4 > 
+                    <ul > 
+                        <p>    
+                            <li>    Identidade : xxxxxx </li><br>
+                        </p> 
+                    </ul>
+                </article>
+                <article > 
+                    <h3> 
+                        Dados de contato...
+                    </h3>   
+                        <a href="mailto:giovaneteodoro79@gmail.com">giovaneteodoro79@gmail.com </a> <br>
+                </article > 
+        </section >     
+    </article>
+    <br>
+    <br>
     <section>
-        <a href="cFluxodeTexto.html">PROXIMA PÁGINA </a> <br>
+        <button type="submit"><a href="cFluxodeTexto.html">PROXIMA PÁGINA </a> </button> <br>
         <br>
-        <a href="aCabeçalhos_ Marcação.html">VOLTAR</a>
+        <button type="submit"><a href="aCabeçalhos_ Marcação.html">VOLTAR</a> </button>
+    </section>
+    <br>
+    <br>
+    <section>
+        &copy;Giovani Teodoro Martins
     </section>
 </body>
 </html>

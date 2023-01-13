@@ -153,6 +153,7 @@
             <header><h2 style="color: rgb(23, 177, 143);"> Tipo NUMBER </h2></header>
             <h2>
                 NUMBER= usado para somente colocar numeros , faz uma verificação simples se é ou não numero .<br>
+                No teclado movél, vai ativar outro tipo de teclado.<br>
                 <br>
                 Código:<br>
                 < form ><br>
@@ -167,8 +168,101 @@
         <br>
         <br>
         <section>
+            <header><h2 style="color: rgb(102, 98, 141);"> Tipo URL </h2></header>
+            <h2>
+                URL= usado para somente colocar endereços de sites , faz uma verificação simples se é ou não um enderço de email.<br>
+                Vai verificar, se tem "@" e o "https".<br>
+                <br>
+                Código:<br>
+                < form ><br>
+                =====< input type="url" name="linkedin" placeholder="link linkedi url" ><br>
+                < /form ><br>
+                * Como vai aparecer na página:
+                <form>
+                    <input type="url" name="linkedin" placeholder="link linkedin" >
+                </form>
+            </h2>
+        </section>
+        <br>
+        <br>
+        <section>
+            <header><h2 style="color: rgb(163, 66, 187);"> Tipo Range "slide" </h2></header>
+            <h2>
+                Range = é uma barrinha, que se move para um lado e outro.<br>
+                Coloca um limite de onde começa até onde vai.<br>
+                <br>
+                Código:<br>
+                < form ><br>
+                =====< input type="range" name="urgencia" min= 0 max= 100 step=0.1 ><br>
+                < /form ><br>
+                * Como vai aparecer na página:
+                <form>
+                    <input type="range" name="urgencia" min= 0 max= 100 step=0.1>
+                </form>
+            </h2>
+        </section>
+        <br>
+        <br>
+        <section>
+            <header><h2 style="color: rgb(83, 219, 42);"> Tipo Checkbox </h2></header>
+            <h2>
+                Checkbox = é mais indicado para o usuário, escolher qual opção ele quer escolher. <br>
+                Pode escolher várias opções .<br>
+                <br>
+                Código:<br>
+                < form ><br>
+                =====< input type="checkbox" name="dia-da-semana" value= 2 >Segunda-feira<br>
+                < /form ><br>
+                * Como vai aparecer na página:
+                <form>
+                    <input type="checkbox" name="dia-da-semana" value= 2 >Segunda-feira ><br>
+                    <input type="checkbox" name="dia-da-semana" value= 4 >Quarta-feira ><br>
+                    <input type="checkbox" name="dia-da-semana" value= 6 >Sexta-feira ><br>
+                </form>
+            </h2>
+        </section>
+        <br>
+        <br>
+        <section>
+            <header><h2 style="color: rgb(236, 13, 24);"> Tipo Radio </h2></header>
+            <h2>
+                Radio = é mais indicado para o usuário, escolher qual opção ele quer escolher. <br>
+                Pode escolher somente uma opção .<br>
+                <br>
+                Código:<br>
+                < form ><br>
+                =====< input type="checkbox" name="dia-da-semana" value= 2 >Segunda-feira<br>
+                < /form ><br>
+                * Como vai aparecer na página:
+                <form>
+                    <input type="radio" name="horário" value= "Manhã" >Manhã ><br>
+                    <input type="radio" name="horário" value= "Tarde" >Tarde ><br>
+                    <input type="radio" name="horário" value= "Noite" >Noite ><br>
+                </form>
+            </h2>
+        </section>
+        <br>
+        <br>
+        <section>
+            <header><h2 style="color: rgb(29, 4, 75);"> Tipo Textarea </h2></header>
+            <h2>
+                TextArea = é um campo para o usuário, digitar o texto, é uma "tag" que tem abertura e fechamento <br>
+                Importante, escolher o tamanho que ela será .<br>
+                <br>
+                Código:<br>
+                < textarea >< /textarea ><br>
+                * Como vai aparecer na página:
+                <form>
+                    <textarea name="mensagem" cols="50" rows="20">Digite aqui</textarea><br>
+                </form>
+            </h2>
+        </section>
+        <section>
+            <a href="../Aula12_Select/aSelect.html">PRÓXIMA</a>
+            <br>
             <a href="../Aula10_Formulário/Aulaa_Form.html">VOLTAR</a>
         </section>
-                   
+        <br>
+        <br>
 </body>
 </html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select</title>
+</head>
+<body>
+    <header><h1 style="color: blue;">Select</h1></header>
+    <section>
+        <h2>
+            É indicado quando você tem varias opções, mas o usuário ja sabe o que ele quer <br>
+            O código seria esse:<br>
+            <p>
+            < select name="cidade" ><br>
+            =====< option value="Passa-Quatro">Passa-Quatro < /option ><br>
+            =====< option value="Itanhandu">Itanhandu < /option ><br>
+            =====< option value="Cruzeiro">Cruzeiro < /option ><br>
+            =====< option value="São Lourenço">São Lourenço < /option ><br>
+            < /select ><br>
+            </p> 
+        </h2>
+    </section>
+    <br>
+        <section>
+            <h2 >Na página, ficaria assim:</h2>
+            <select name="cidade">
+                <option value="">Selecione a cidade </option>
+                <option value="Passa-Quatro">Passa-Quatro</option>
+                <option value="Itanhandu">Itanhandu</option>
+                <option value="Cruzeiro">Cruzeiro</option>
+                <option value="São Lourenço">São Lourenço</option>
+            </select>
+        </section>
+        <br>
+        <br>
+        <header><h1 style="color: rgb(182, 19, 19);">Data List</h1></header>
+    <section>
+        <h2>
+            Vai dá as opções de acordo com as palavras digitadas, vai ajudar o usuário preencher o campo de texto. <br>
+            Se deixar vazio, vai vazio mesmo.<br>
+            O código seria esse:<br>
+            <p>
+            < input list="cidade" name="cidade" ><br>
+            < datalist id="cidade" ><br>
+            =====< option value="Passa-Quatro">Passa-Quatro < /option ><br>
+            =====< option value="Itanhandu">Itanhandu < /option ><br>
+            =====< option value="Cruzeiro">Cruzeiro < /option ><br>
+            =====< option value="São Lourenço">São Lourenço < /option ><br>
+            < /select ><br>
+            </p> 
+        </h2>
+    </section>
+    <br>
+        <section>
+            <h2 >Na página, ficaria assim:</h2>
+            <input list="cidade" name="cidade">
+            <datalist id="cidade">
+                <option value="Passa-Quatro">Passa-Quatro</option>
+                <option value="Itanhandu">Itanhandu</option>
+                <option value="Cruzeiro">Cruzeiro</option>
+                <option value="São Lourenço">São Lourenço</option>
+            </select>
+        </section>
+        <br>
+        <section>
+            <a href="../Aula13_Button/aButton.html">PRÓXIMA</a>
+            <br>
+            <a href="../Aula11_ComponetesdoFormulário/Aulaa_Input.html">VOLTAR</a>
+        </section>
+        <br>
+        <br>
+</body>
+</html>
